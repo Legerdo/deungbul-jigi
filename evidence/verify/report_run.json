@@ -1,0 +1,109 @@
+{
+  "startedAt": "2026-09-28T19:42:48.746Z",
+  "base": "http://localhost:5173/",
+  "headless": true,
+  "viewport": "1920x1080",
+  "dpr": 1,
+  "phases": {
+    "run": {
+      "ok": true,
+      "seconds": 153.455,
+      "marks": [
+        {
+          "t": 0,
+          "mode": "intro",
+          "x": -38.5,
+          "hp": 10
+        },
+        {
+          "t": 14.6,
+          "mode": "play",
+          "x": -38.28423735842812,
+          "hp": 10
+        },
+        {
+          "t": 15.6,
+          "mode": "dialog",
+          "x": -36.26786397728285,
+          "hp": 10
+        },
+        {
+          "t": 19.4,
+          "mode": "play",
+          "x": -35.50946574688911,
+          "hp": 10
+        },
+        {
+          "t": 90.2,
+          "mode": "cutscene",
+          "x": 63.876850566023585,
+          "hp": 10
+        },
+        {
+          "t": 96,
+          "mode": "play",
+          "x": 64.05545954438698,
+          "hp": 10
+        },
+        {
+          "t": 142.9,
+          "mode": "ending",
+          "x": 71.99729101919952,
+          "hp": 2
+        },
+        {
+          "t": 152,
+          "mode": "results",
+          "x": 71.99902887136645,
+          "hp": 2
+        }
+      ],
+      "final": {
+        "mode": "results",
+        "paused": false,
+        "x": 71.99902887136645,
+        "y": 4,
+        "z": -16.504129166896327,
+        "hp": 2,
+        "pstate": "locked",
+        "talked": true,
+        "bossActive": false,
+        "bossDefeated": true,
+        "bossHp": 0,
+        "bossPhase": 2,
+        "bossState": "dead",
+        "lanternLit": true,
+        "checkpoints": [
+          true,
+          true
+        ],
+        "enemiesAlive": 0,
+        "enemiesNear": [],
+        "projectiles": 0,
+        "stats": {
+          "time": 119.08490000001699,
+          "deaths": 0,
+          "kills": 7
+        },
+        "events": [
+          "hurt:enemy:1",
+          "hurt:enemy:1",
+          "hurt:boss-sweep:2",
+          "hurt:boss-barrage:2",
+          "hurt:boss-slam:1",
+          "hurt:boss-barrage:2",
+          "hurt:boss-barrage:2",
+          "hurt:boss-slam:1",
+          "ending",
+          "results-confirm",
+          "results-confirm",
+          "results-confirm",
+          "results-confirm"
+        ]
+      }
+    }
+  },
+  "errors": [],
+  "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5080 (0x00002C02) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "finishedAt": "2026-09-28T19:45:23.900Z"
+}

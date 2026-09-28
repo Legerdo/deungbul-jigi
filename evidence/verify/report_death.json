@@ -1,0 +1,32 @@
+{
+  "startedAt": "2026-09-28T21:30:52.400Z",
+  "base": "http://localhost:4173/",
+  "headless": true,
+  "viewport": "1920x1080",
+  "dpr": 1,
+  "phases": {
+    "death": {
+      "ok": true,
+      "died": true,
+      "after": {
+        "mode": "play",
+        "hp": 10,
+        "x": -38.5,
+        "z": 0.6,
+        "deaths": 1
+      },
+      "checkpoint": {
+        "ok": true,
+        "lit": true,
+        "died": true,
+        "mode": "play",
+        "hp": 10,
+        "x": 29.6,
+        "z": 3.3,
+        "deaths": 2
+      }
+    }
+  },
+  "errors": [],
+  "finishedAt": "2026-09-28T21:31:07.447Z"
+}

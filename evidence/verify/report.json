@@ -1,0 +1,155 @@
+{
+  "startedAt": "2026-09-28T21:40:30.142Z",
+  "base": "http://localhost:4173/",
+  "headless": true,
+  "viewport": "1920x1080",
+  "dpr": 1,
+  "phases": {
+    "run": {
+      "ok": true,
+      "seconds": 144.182,
+      "marks": [
+        {
+          "t": 0,
+          "mode": "intro",
+          "x": -38.5,
+          "hp": 10
+        },
+        {
+          "t": 14.5,
+          "mode": "play",
+          "x": -38.32975921907011,
+          "hp": 10
+        },
+        {
+          "t": 15.6,
+          "mode": "dialog",
+          "x": -36.2838331331376,
+          "hp": 10
+        },
+        {
+          "t": 19.3,
+          "mode": "play",
+          "x": -35.80248616206259,
+          "hp": 10
+        },
+        {
+          "t": 82.7,
+          "mode": "cutscene",
+          "x": 63.70678984213686,
+          "hp": 10
+        },
+        {
+          "t": 88.5,
+          "mode": "play",
+          "x": 63.946310468110525,
+          "hp": 10
+        },
+        {
+          "t": 133.6,
+          "mode": "ending",
+          "x": 71.99894732262207,
+          "hp": 5
+        },
+        {
+          "t": 142.5,
+          "mode": "results",
+          "x": 71.99924867520788,
+          "hp": 5
+        }
+      ],
+      "final": {
+        "mode": "results",
+        "paused": false,
+        "x": 71.99924867520788,
+        "y": 4,
+        "z": -16.51367619122482,
+        "hp": 5,
+        "pstate": "locked",
+        "talked": true,
+        "bossActive": false,
+        "bossDefeated": true,
+        "bossHp": 0,
+        "bossPhase": 2,
+        "bossState": "dead",
+        "lanternLit": true,
+        "checkpoints": [
+          true,
+          true
+        ],
+        "enemiesAlive": 0,
+        "enemiesNear": [],
+        "enemiesClose": [],
+        "projectiles": 0,
+        "stats": {
+          "time": 109.60910000001358,
+          "deaths": 0,
+          "kills": 7
+        },
+        "events": [
+          "hurt:boss-barrage:1",
+          "hurt:boss-barrage:1",
+          "hurt:boss-slam:1",
+          "hurt:boss-barrage:1",
+          "hurt:boss-slam:1",
+          "ending",
+          "results-confirm",
+          "results-confirm",
+          "results-confirm",
+          "results-confirm"
+        ]
+      }
+    },
+    "death": {
+      "ok": true,
+      "died": true,
+      "after": {
+        "mode": "play",
+        "hp": 10,
+        "x": -38.5,
+        "z": 0.6,
+        "deaths": 1
+      },
+      "checkpoint": {
+        "ok": true,
+        "lit": true,
+        "died": true,
+        "mode": "play",
+        "hp": 10,
+        "x": 29.6,
+        "z": 3.3,
+        "deaths": 2
+      }
+    },
+    "fps": {
+      "seconds": 30.3941,
+      "frames": 3646,
+      "avgFps": 119.95749175004359,
+      "avgFrameMs": 8.336286341195832,
+      "p95FrameMs": 8.400000000001455,
+      "p99FrameMs": 8.5,
+      "maxFrameMs": 14.599999999998545,
+      "refreshHzAfter": 119.99999999999999,
+      "cpuWorkMs": {
+        "avg": 1.022773362726798,
+        "p95": 1.7000000029802322,
+        "max": 10.899999991059303
+      },
+      "combatSeconds": 30,
+      "bossHpStartEnd": [
+        72,
+        47
+      ],
+      "playerHpMin": 4,
+      "renderer": {
+        "calls": 77,
+        "triangles": 39643,
+        "textures": 58,
+        "geometries": 106
+      }
+    }
+  },
+  "errors": [],
+  "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 5080 (0x00002C02) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "finishedAt": "2026-09-28T21:43:48.876Z"
+}

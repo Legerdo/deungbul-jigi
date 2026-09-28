@@ -1,0 +1,31 @@
+{
+  "startedAt": "2026-09-28T19:49:35.194Z",
+  "base": "http://localhost:5173/",
+  "headless": true,
+  "viewport": "1920x1080",
+  "dpr": 1,
+  "phases": {
+    "fps": {
+      "seconds": 30.269099999999998,
+      "frames": 3632,
+      "avgFps": 119.99035319847634,
+      "avgFrameMs": 8.334003303964757,
+      "p95FrameMs": 8.400000000001455,
+      "p99FrameMs": 8.5,
+      "maxFrameMs": 8.600000000002183,
+      "combatSeconds": 29,
+      "bossHpStartEnd": [
+        68,
+        29
+      ],
+      "renderer": {
+        "calls": 87,
+        "triangles": 41253,
+        "textures": 58,
+        "geometries": 109
+      }
+    }
+  },
+  "errors": [],
+  "finishedAt": "2026-09-28T19:50:13.710Z"
+}

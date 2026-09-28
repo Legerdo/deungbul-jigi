@@ -1,0 +1,26 @@
+{
+  "name": "deungbul-jigi",
+  "private": true,
+  "version": "1.0.0",
+  "description": "등불지기: 황혼의 계곡 — Three.js 2.5D 픽셀 액션 RPG",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "build": "tsc --noEmit -p tsconfig.json && vite build",
+    "preview": "vite preview --port 4173 --strictPort",
+    "pages:stage": "npm run build && node scripts/stage-pages.mjs",
+    "sprites": "node scripts/export-sprites.mjs",
+    "verify": "node scripts/verify.mjs"
+  },
+  "dependencies": {
+    "galmuri": "2.40.3",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@types/three": "0.186.0",
+    "playwright": "1.63.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.1"
+  }
+}
