@@ -4,7 +4,7 @@ Three.js + TypeScript로 만든 2.5D 픽셀 디오라마 액션 RPG입니다. �
 
 [브라우저에서 바로 플레이](https://legerdo.github.io/deungbul-jigi/) · [GitHub 저장소](https://github.com/Legerdo/deungbul-jigi)
 
-모든 그림(캐릭터 시트, 노멀 맵, 지형·벽·나무·FX 텍스처, 하늘)은 `src/art`의 코드가 불러올 때마다 똑같이 생성합니다. 저장소에 이미지·사운드 파일은 없고, 효과음과 환경음은 Web Audio로 합성합니다. 외부 에셋은 글꼴 [Galmuri](https://github.com/quiple/galmuri)(npm `galmuri`, SIL OFL 1.1) 하나뿐입니다.
+게임에서 사용하는 그림(캐릭터 시트, 노멀 맵, 지형·벽·나무·FX 텍스처, 하늘)은 `src/art` 코드가 실행할 때마다 같은 결과로 생성합니다. 검증용 PNG는 `evidence/`에 보관하며, 게임에 쓰는 외부 이미지나 사운드 파일은 없습니다. 효과음과 환경음은 Web Audio로 합성하고, 외부 에셋은 글꼴 [Galmuri](https://github.com/quiple/galmuri)(npm `galmuri`, SIL OFL 1.1)뿐입니다.
 
 ## 실행
 
